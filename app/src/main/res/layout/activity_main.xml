@@ -1,0 +1,281 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dip"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:id="@+id/scoreText"
+        android:layout_alignParentTop="true"
+        android:text=""
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="false" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:id="@+id/grass"
+        android:layout_marginTop="40dip"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/grass"/>
+
+    <ImageView
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dip"
+        android:id="@+id/fence1"
+        android:src="@drawable/fence"/>
+
+    <ImageView
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dip"
+        android:id="@+id/homesheep1"/>
+
+    <ImageView
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="40dip"
+        android:id="@+id/fence2"
+        android:src="@drawable/fence"/>
+
+
+    <ImageView
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="50dip"
+        android:id="@+id/homesheep2"/>
+
+    <ImageView
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_marginLeft="260dip"
+        android:id="@+id/fence3"
+        android:layout_marginTop="40dip"
+        android:src="@drawable/fence"/>
+
+    <ImageView
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_marginLeft="290dip"
+        android:layout_marginTop="50dip"
+        android:id="@+id/homesheep3"/>
+
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="160dip"
+    android:id="@+id/river"
+    android:layout_marginTop="80dip"
+    android:src="@drawable/river"/>
+
+    <ImageView
+        android:layout_width="100dip"
+        android:layout_height="70dip"
+        android:id="@+id/croc1"
+        android:layout_marginTop="80dip"
+        android:layout_marginLeft="20dip"
+        android:src="@drawable/crocright"/>
+
+
+    <ImageView
+        android:layout_width="100dip"
+        android:layout_height="70dip"
+        android:id="@+id/croc2"
+        android:layout_marginTop="120dip"
+        android:layout_marginLeft="250dip"
+        android:src="@drawable/crocleft"/>
+
+    <ImageView
+        android:layout_width="100dip"
+        android:layout_height="70dip"
+        android:id="@+id/croc3"
+        android:layout_marginTop="160dip"
+        android:layout_marginLeft="-80dip"
+        android:src="@drawable/crocright"/>
+
+    <ImageView
+    android:layout_width="40dip"
+    android:layout_height="40dip"
+    android:id="@+id/float1"
+    android:layout_marginTop="200dip"
+    android:layout_marginLeft="40dip"
+    android:src="@drawable/floater"/>
+
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/float2"
+        android:layout_marginTop="200dip"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/floater"/>
+
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/float3"
+        android:layout_marginTop="200dip"
+        android:layout_marginLeft="280dip"
+        android:src="@drawable/floater"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:id="@+id/sidewalk1"
+        android:layout_marginTop="240dip"
+        android:src="@drawable/sidewalk"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dip"
+        android:id="@+id/road"
+        android:layout_marginTop="280dip"
+        android:src="@drawable/road"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:id="@+id/sidewalk2"
+        android:layout_marginTop="440dip"
+        android:src="@drawable/sidewalk"/>
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/sheep"
+        android:layout_marginTop="440dip"
+        android:src="@drawable/sheep"/>
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/car1"
+        android:src="@mipmap/bluecar"
+        android:layout_marginTop="400dip"
+        android:layout_marginLeft="-100dip"
+        />
+        <!--android:layout_marginLeft="-100dip"-->
+
+
+
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/car2"
+        android:src="@mipmap/redcar"
+        android:layout_marginTop="400dip"
+        android:layout_marginLeft="-300dip" />
+
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/car3"
+        android:src="@mipmap/redcar"
+        android:layout_marginTop="400dip"
+        android:layout_marginLeft="-450dip" />
+
+    <ImageView
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:id="@+id/bike"
+        android:src="@drawable/bike"
+        android:layout_marginTop="230dip"
+        android:layout_marginLeft="-80dip" />
+
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/car4"
+        android:src="@mipmap/bluecar"
+        android:layout_marginTop="360dip"
+        android:layout_marginLeft="-100dip"/>
+
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/car5"
+        android:src="@mipmap/redcar"
+        android:layout_marginTop="360dip"
+        android:layout_marginLeft="-300dip"/>
+
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/car6"
+        android:src="@mipmap/bluecar"
+        android:layout_marginTop="360dip"
+        android:layout_marginLeft="-500dip"/>
+
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/car7"
+        android:src="@mipmap/bluecar"
+        android:layout_marginTop="320dip"
+        android:layout_marginLeft="500dip"/>
+
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/car8"
+        android:src="@mipmap/redcar"
+        android:layout_marginTop="320dip"
+        android:layout_marginLeft="700dip"/>
+
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/car9"
+        android:src="@mipmap/bluecar"
+        android:layout_marginTop="320dip"
+        android:layout_marginLeft="800dip"/>
+
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/car10"
+        android:src="@mipmap/bluecar"
+        android:layout_marginTop="280dip"
+        android:layout_marginLeft="500dip"/>
+
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/car11"
+        android:src="@mipmap/redcar"
+        android:layout_marginTop="280dip"
+        android:layout_marginLeft="700dip"/>
+
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/car12"
+        android:src="@mipmap/bluecar"
+        android:layout_marginTop="280dip"
+        android:layout_marginLeft="800dip"/>
+
+    <ImageView
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:id="@+id/reddot"
+        android:src="@drawable/reddot"
+        android:layout_marginTop="-200dip"
+        android:layout_marginLeft="-200dip"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Time Remaining : "
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView"
+        android:layout_below="@+id/sidewalk2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
